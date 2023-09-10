@@ -1,0 +1,47 @@
+.parent__nav{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.company___logo{
+    width: 8rem;
+    height: 8rem;
+    padding: 12px;
+}
+
+.all__brands h6, .all__brands svg{
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+.search__section svg{
+    font-size: 2rem;
+}
+
+.search__section input{
+    height: fit-content;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.search__section{
+    border-radius: 12px;
+    /* width: 70%; */
+}
+
+.section__2{
+    width: 70%;
+}
+
+.sign_in h6{
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+
+.section__3{
+    background-color: var(--secondary-color);
+}
+
+.section__3 svg{
+    font-size: 2rem;
+}
