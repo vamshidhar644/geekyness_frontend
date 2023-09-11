@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phonepulse/static/css/main.c905605c.css",
+    "main.js": "/phonepulse/static/js/main.b2b4c3f8.js",
+    "index.html": "/phonepulse/index.html",
+    "main.c905605c.css.map": "/phonepulse/static/css/main.c905605c.css.map",
+    "main.b2b4c3f8.js.map": "/phonepulse/static/js/main.b2b4c3f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c905605c.css",
+    "static/js/main.b2b4c3f8.js"
+  ]
+}
