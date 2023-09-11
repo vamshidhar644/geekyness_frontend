@@ -3,8 +3,8 @@ import ProductInfo from '../../../../data';
 
 const ProductFeatures = () => {
   return (
-    <div className='product__features'>
-      <table className='mx-5'>
+    <div className="product__features m-3">
+      <table className="mx-4">
         <tr>
           <td>
             <h6>Warranty</h6>

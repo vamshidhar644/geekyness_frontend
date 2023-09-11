@@ -20,8 +20,8 @@ const ProductInformation = () => {
           </span>
         </p>
         <p className="ratings_reviews m-0 mt-2">
-          {ProductInfo.rating.ratings} Ratings &{' '}
-          {ProductInfo.rating.reviews.total} Reviews
+          {ProductInfo.rating.ratings} Ratings & {ProductInfo.rating.total}{' '}
+          Reviews
         </p>
       </div>
 

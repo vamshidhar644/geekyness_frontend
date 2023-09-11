@@ -1,0 +1,32 @@
+.parent__ratings_reviews{
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.product_rate_box1 h2{
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+    margin: 0;
+}
+
+.product_rate_box1 h2 span{
+    color: var(--button-color);
+    display: flex;
+    align-items: center;
+}
+
+.product_rate_box1 .ratings_reviews{
+    font-size: 1.4rem;
+    width: auto;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium',;
+}
+
+.review__box{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 6px;
+}

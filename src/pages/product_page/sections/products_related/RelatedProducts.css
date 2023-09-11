@@ -1,0 +1,23 @@
+
+.parent__related_product{
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.related_product__box{
+    max-width: 20%;
+}
+
+.related_product__image{
+    height: 16rem;
+}
+
+.realted_product__name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.related_price h3{
+    font-size: 1.6rem !important;
+}

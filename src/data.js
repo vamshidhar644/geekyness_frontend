@@ -42,28 +42,66 @@ const ProductInfo = {
   rating: {
     rating: 4.5,
     ratings: 23483,
-    reviews: {
-      total: 1175,
-      rev1: {
+    total: 1175,
+    reviews: [
+      {
+        rate: 4.3,
+        rate_text: 'Excellent',
+        detail: 'Good Camera Quality',
+        images: ['', '', ''],
+      },
+      {
+        rate: 3.5,
+        rate_text: 'Excellent',
+        detail: 'Good Camera Quality',
+        images: ['', '', ''],
+      },
+      {
         rate: 4,
         rate_text: 'Excellent',
         detail: 'Good Camera Quality',
         images: ['', '', ''],
       },
-      rev2: {
-        rate: 4,
-        rate_text: 'Excellent',
-        detail: 'Good Camera Quality',
-        images: ['', '', ''],
-      },
-      rev3: {
-        rate: 4,
-        rate_text: 'Excellent',
-        detail: 'Good Camera Quality',
-        images: ['', '', ''],
-      },
-    },
+    ],
   },
+  relatedProducts: [
+    {
+      name: 'Realme Norzo N53 (Feather Black)',
+      price: {
+        mrp: 12999,
+        sellingprice: 12238,
+      },
+      image:
+        'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/0/n/r/narzo-n53-rmx3761-realme-original-imagpygzxcuysz9k.jpeg?q=70',
+    },
+    {
+      name: 'Infinix HOT 30 5G (Knight Black, 128GB) ',
+      price: {
+        mrp: 14499,
+        sellingprice: 12499,
+      },
+      image:
+        'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/i/w/x/hot-30-5g-x6832-infinix-original-imagrfwzw66ubgnk.jpeg?q=70',
+    },
+    {
+      name: 'REDMI 11 Prime (Peppy Purple, 128 GB)  (6 GB RAM)',
+      price: {
+        mrp: 10499,
+        sellingprice: 16999,
+      },
+      image:
+        'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/m/3/11-prime-mzb0ceoin-redmi-original-imagzqvrz4mvf6tx.jpeg?q=70',
+    },
+    {
+      name: 'Redmi 12 (Pastel Blue, 128 GB)',
+      price: {
+        mrp: 9999,
+        sellingprice: 14999,
+      },
+      image:
+        'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/e/a/g/-original-imags37h4prxjazz.jpeg?q=70',
+    },
+  ],
 };
 
 export default ProductInfo;
