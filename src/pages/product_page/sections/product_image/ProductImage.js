@@ -4,6 +4,8 @@ import ProductInfo from '../../../../data';
 import ReactImageMagnify from 'react-image-magnify';
 
 const ProductImage = () => {
+  
+
   const watchImg = ProductInfo.images[0];
 
   return (
@@ -19,13 +21,13 @@ const ProductImage = () => {
             },
             largeImage: {
               src: watchImg,
-              width: 350,
-              height: 600,
+              width: 400,
+              height: 1000,
             },
           }}
         />
       </div>
-      <div className="other__images d-flex gap-3 justify-content-start">
+      <div className="other__images d-flex">
         {ProductInfo.images &&
           ProductInfo.images.map((image, path) => {
             return (

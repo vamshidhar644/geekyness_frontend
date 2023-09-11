@@ -86,8 +86,8 @@ const ProductInfo = {
     {
       name: 'REDMI 11 Prime (Peppy Purple, 128 GB)  (6 GB RAM)',
       price: {
-        mrp: 10499,
-        sellingprice: 16999,
+        mrp: 16999,
+        sellingprice: 10499,
       },
       image:
         'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/m/m/3/11-prime-mzb0ceoin-redmi-original-imagzqvrz4mvf6tx.jpeg?q=70',
@@ -95,8 +95,8 @@ const ProductInfo = {
     {
       name: 'Redmi 12 (Pastel Blue, 128 GB)',
       price: {
-        mrp: 9999,
-        sellingprice: 14999,
+        mrp: 14999,
+        sellingprice: 9999,
       },
       image:
         'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/e/a/g/-original-imags37h4prxjazz.jpeg?q=70',

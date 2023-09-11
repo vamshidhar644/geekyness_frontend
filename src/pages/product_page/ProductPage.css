@@ -1,3 +1,13 @@
 .parent__product_page{
     min-height: 100vh;
 }
+
+@media only screen and (max-width: 600px){
+    .product_page__box1{
+        flex-direction: column;
+    }
+
+    .product__images, .product__info{
+        width: 100% !important;
+    }
+}

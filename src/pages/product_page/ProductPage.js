@@ -9,7 +9,7 @@ import RelatedProducts from './sections/products_related/RelatedProducts';
 const ProductPage = () => {
   return (
     <div className="parent__product_page">
-      <div className="d-flex">
+      <div className="product_page__box1 d-flex">
         <div className="product__images w-50">
           <ProductImage />
         </div>

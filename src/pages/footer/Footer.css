@@ -1,0 +1,32 @@
+
+.parent__footer{
+    background-color: var(--primary-color);
+}
+
+.footer_section__2 ul{
+    list-style: none;
+    color: #fff;
+
+}
+
+.footer_section__2 ul li{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+    .parent__footer{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer_section__2 ul{
+        flex-direction: column;
+        gap: 12px !important;
+        /* align-items: start; */
+    }
+
+    .footer_section__2 ul{
+        padding: 16px !important;
+    }
+}

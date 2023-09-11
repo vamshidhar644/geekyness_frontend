@@ -30,3 +30,24 @@
     border: 1px solid;
     border-radius: 6px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .product_rate_box1{
+        width: 100% !important;
+        justify-content: center;
+    }
+
+    .product_rate_box1 h2{
+        width: 100%;
+    }
+    .ratings_reviews{
+        text-align: center;
+    }
+    .reviews__section{
+        flex-direction: column;
+    }
+    .review__box{
+        width: 100%;
+    }
+}

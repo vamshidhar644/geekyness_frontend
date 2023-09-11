@@ -9,7 +9,7 @@ const ProductInformation = () => {
   const discount = mrp - sellingprice;
   const perc = (discount / mrp) * 100;
   return (
-    <div className="mx-5 mt-5">
+    <div className="product_info mx-5 mt-5">
       <h3 className="product__name">{ProductInfo.name}</h3>
 
       <div className="d-flex gap-2">
@@ -33,7 +33,7 @@ const ProductInformation = () => {
         +₹{ProductInfo.price.packageprice} Secured Packaging fee
       </p>
 
-      <div className="d-flex w-100 justify-content-center gap-4">
+      <div className="product__buttons d-flex w-100 justify-content-center gap-4">
         <div className="product__button">
           <p className="m-0">Add to Cart</p>
         </div>

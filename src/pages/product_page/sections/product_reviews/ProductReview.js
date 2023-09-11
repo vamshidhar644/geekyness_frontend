@@ -21,7 +21,7 @@ const ProductReview = () => {
             {ProductInfo.rating.reviews.total} Reviews
           </p>
         </div>
-        <div className="product_rate_box2 w-50"></div>
+        {/* <div className="product_rate_box2 w-50"></div> */}
       </div>
       <hr />
       <div className="product__reviews">

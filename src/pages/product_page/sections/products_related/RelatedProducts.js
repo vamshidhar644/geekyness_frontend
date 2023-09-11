@@ -6,12 +6,15 @@ const RelatedProducts = () => {
   return (
     <div className="parent__related_product m-3 p-2">
       <h4>Related Products</h4>
-      <div className="d-flex gap-5 justify-content-around p-2">
+      <div className="realted__products d-flex gap-5 p-2">
         {ProductInfo.relatedProducts.map((product, i) => {
           const discount = product.price.mrp - product.price.sellingprice;
           const perc = (discount / product.price.mrp) * 100;
           return (
-            <div className="related_product__box align-items-center d-flex flex-column align-items-center justify-content-center">
+            <div
+              className="related_product__box align-items-center d-flex flex-column align-items-center justify-content-center"
+              key={i}
+            >
               <div className="related_product__image">
                 <img src={product.image} alt="" className=" h-100" />
               </div>
@@ -20,7 +23,7 @@ const RelatedProducts = () => {
                 <h3 className="product__pricing mt-2">
                   ₹{product.price.sellingprice}{' '}
                   <span>₹{product.price.mrp}</span>{' '}
-                  <span>{Math.floor(perc)}% off</span>
+                  <span className='disc_per'>{Math.floor(perc)}% off</span>
                 </h3>
               </div>
             </div>

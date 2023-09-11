@@ -48,6 +48,7 @@
     align-items: center;
     padding: 12px 4rem;
     border-radius: 12px;
+    cursor: pointer;
     font-weight: 550;
     letter-spacing: 1.4px;
     font-family: poppins;
@@ -75,6 +76,7 @@
 
 .product_colors{
     width: 3.4rem;
+    cursor: pointer;
 }
 
 table tr td:first-child{
@@ -86,15 +88,22 @@ table tr{
     padding: 2rem;
 }
 
+
 .ram__box, .storage__box{
     border: 1px dashed;
     border-radius: 8px;
     font-family: poppins;
     font-weight: 600;
     padding: 4px 16px;
+    cursor: pointer;
 }
 
 .product__features{
     border: 1px solid;
     border-radius: 12px;
+}
+
+
+@media only screen and (max-width: 894px) {
+    
 }

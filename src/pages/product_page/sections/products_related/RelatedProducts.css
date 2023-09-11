@@ -12,6 +12,12 @@
     height: 16rem;
 }
 
+.realted__products{
+    justify-content: start;
+    overflow-x: scroll;
+}
+
+
 .realted_product__name{
     font-size: 1.2rem;
     font-weight: 600;
@@ -20,4 +26,19 @@
 
 .related_price h3{
     font-size: 1.6rem !important;
+}
+
+
+@media only screen and (max-width: 600px){
+    .related_product__box{
+        max-width: 100%;
+    }
+
+    .related_price h3{
+        word-spacing: 12px;
+    }
+
+    .disc_per{
+        word-spacing: 0px;
+    }
 }

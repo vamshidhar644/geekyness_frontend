@@ -6,7 +6,12 @@
 .company___logo{
     width: 8rem;
     height: 8rem;
+    cursor: pointer;
     padding: 12px;
+}
+
+.section__1, .section__3{
+    display: flex;
 }
 
 .all__brands h6, .all__brands svg{
@@ -24,6 +29,10 @@
     font-size: 1.2rem;
 }
 
+.search__section input:focus{
+    outline: none;
+}
+
 .search__section{
     border-radius: 12px;
     /* width: 70%; */
@@ -35,13 +44,44 @@
 
 .sign_in h6{
     font-size: 1.4rem;
+    cursor: pointer;
     color: var(--secondary-color);
 }
 
 .section__3{
     background-color: var(--secondary-color);
 }
-
+.back__arrow{
+    display: none;
+}
 .section__3 svg{
+    cursor: pointer;
     font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section__1, .section__3, .sign_in{
+        display: none;
+    }
+
+    .back__arrow{
+        display: flex;
+        color: aliceblue;
+        font-size: 1.6rem;
+    }
+
+    .parent__nav{
+        display: flex;
+        padding: 6px 12px;
+        /* justify-content: space-between; */
+    }
+
+    .search__section{
+        border-radius: 6px;
+    }
+
+    .section__2{
+        width: 100%;
+    }
 }
