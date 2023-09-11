@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4286b80e.css",
-    "main.js": "/static/js/main.e3d4fcaf.js",
-    "index.html": "/index.html",
-    "main.4286b80e.css.map": "/static/css/main.4286b80e.css.map",
-    "main.e3d4fcaf.js.map": "/static/js/main.e3d4fcaf.js.map"
+    "main.css": "/geekyness_frontend/static/css/main.4286b80e.css",
+    "main.js": "/geekyness_frontend/static/js/main.9459f1ea.js",
+    "index.html": "/geekyness_frontend/index.html",
+    "main.4286b80e.css.map": "/geekyness_frontend/static/css/main.4286b80e.css.map",
+    "main.9459f1ea.js.map": "/geekyness_frontend/static/js/main.9459f1ea.js.map"
   },
   "entrypoints": [
     "static/css/main.4286b80e.css",
-    "static/js/main.e3d4fcaf.js"
+    "static/js/main.9459f1ea.js"
   ]
 }
