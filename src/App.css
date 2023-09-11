@@ -1,7 +1,13 @@
 :root{
     --primary-color: #4B4453;
     --secondary-color: #FBEAFF;
+    --button-color: #057210;
+    --light-font: #726D6D;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
 
 body{
     padding: 0px;

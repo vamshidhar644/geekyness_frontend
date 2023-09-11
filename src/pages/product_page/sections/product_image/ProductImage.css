@@ -1,0 +1,17 @@
+
+.parent__image{
+    width: auto !important; 
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.magnify__image{
+    width: 60%;
+}
+
+.other__images{
+    min-width: 80%;
+    width: 80%;
+    overflow-x: scroll;
+}
+

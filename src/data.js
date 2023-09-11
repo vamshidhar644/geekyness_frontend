@@ -1,7 +1,17 @@
 const ProductInfo = {
   id: 'PPM0023',
   name: 'realme C53 (Champion Gold, 128 GB) (6 GB RAM)',
-  images: ['', '', ''],
+  images: [
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/h/h/d/-original-imags487gaqqhcea.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/s/m/y/-original-imagrrxads6t9hr3.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/9/t/s/-original-imagrggwx2mjftj7.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/l/z/c53-rmx3762-realme-original-imagrffgqtmdycjh.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/d/k/d/-original-imagrggwvwyhuzh9.jpeg?q=70',
+    'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMiIgaGVpZ2h0PSIyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZmlsbC1vcGFjaXR5PSIuMDUiIGZpbGw9IiNGRkYiIGQ9Ik0wIDBoMnYySDB6Ii8+PHBhdGggZD0iTTAgMGgxdjFIMHoiIGZpbGw9IiM4REFDREEiLz48L2c+PC9zdmc+',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/e/k/v/-original-imagrsfabrn83kyf.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/2/7/f/-original-imagrggwnkdrfdfs.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/p/z/a/-original-imagrggwmyyrjsdt.jpeg?q=70',
+  ],
   price: {
     mrprice: 12999,
     sellingprice: 10999,
@@ -13,14 +23,8 @@ const ProductInfo = {
     'Bank Offer ₹1000 off on SBI Credit and Debit Card Transactions T&C',
   ],
   colors: [
-    {
-      name: 'Black',
-      image: '',
-    },
-    {
-      name: 'Champion Gold',
-      image: '',
-    },
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/h/h/d/-original-imags487gaqqhcea.jpeg?q=70',
+    'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/5/q/6/-original-imags487ftf3g2s7.jpeg?q=70',
   ],
   ram: [4, 6],
   storage: [64, 128],

@@ -1,0 +1,100 @@
+
+.product__name{
+    font-family: poppins; 
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.product__rating{
+    background-color: var(--button-color);
+    font-size: 16px;
+    color: aliceblue;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.ratings_reviews{
+    font-size: 16px;
+    font-family: kreon;
+    font-weight: bolder;
+    color: var(--light-font);
+}
+
+.product__pricing{
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.product__pricing span:first-child{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--light-font);
+    text-decoration: line-through;
+}
+
+.product__pricing span:nth-child(2){
+    font-size: 1.1rem;
+    color: var(--button-color);
+}
+
+.package_fee{
+    font-weight: 600;
+}
+
+.product__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 4rem;
+    border-radius: 12px;
+    font-weight: 550;
+    letter-spacing: 1.4px;
+    font-family: poppins;
+}
+
+.product__button:nth-child(1){
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.product__button:nth-child(2){
+    border: 2px solid var(--primary-color);
+}
+
+.avail__offers{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.avail_offer__section h6{
+    font-size: 18px;
+    color: var(--light-font);
+    font-weight: 700;
+}
+
+.product_colors{
+    width: 3.4rem;
+}
+
+table tr td:first-child{
+    width: 6rem;
+    color: var(--light-font);
+}
+
+table tr{
+    padding: 2rem;
+}
+
+.ram__box, .storage__box{
+    border: 1px dashed;
+    border-radius: 8px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 4px 16px;
+}
+
+.product__features{
+    border: 1px solid;
+    border-radius: 12px;
+}
